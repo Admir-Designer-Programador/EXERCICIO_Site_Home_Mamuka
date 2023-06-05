@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.Esqueda{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Esqueda img{
+    width: 450px;
+    
+}
+
+.Esqueda p {
+    width: 500px;
+    margin-top: 0px;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+
+
+.Direita{
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #405189;
+    
+}
+
+
+.Direita img{
+    margin: 30px;
+
+}
+
+.Direita form {
+    width: 85%;
+    height: 550px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Direita h1{
+    font-size: 60px;
+    color:#ffff;
+    text-transform: uppercase;
+    padding: 80px 80px 80px 120px ;
+    display: flex;
+    align-items: center;
+
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.label-input input {
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    text-indent: 5px;
+
+    background-color: #ffffff;
+    color: white;
+}
+
+.label-input a{
+    padding: 0px 0px 0px 295px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.Direita button {
+    width: 100%;
+    background-color: #0073ea;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.Direita a{
+
+    text-decoration: none;
+}
+
+.registrese{
+color: #ffffff;
+margin-left: 120px;
+display: flex;
+justify-content: end;
+
+}
